@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.nv.setNavigationItemSelectedListener {
             when(it.itemId) {
-                R.id.games -> {
-                    val frag = GamesGeneralFragment()
+                R.id.ps4 -> {
+                    val frag = Ps4CFragment()
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
             }

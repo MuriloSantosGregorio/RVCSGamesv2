@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/games"
+        android:id="@+id/inicio"
         android:title="Inicio" />
     <item
         android:id="@+id/jogos"
@@ -32,21 +32,21 @@
         android:id="@+id/aluguel"
         android:title="Aluguel" >
         <menu >
-            <group android:id="@+id/primePs">
+            <group android:id="@+id/aluguelPs">
                 <item
-                    android:id="@+id/primePs4"
-                    android:title="Pime Ps4" />
+                    android:id="@+id/aluguelPs4"
+                    android:title="Ps4" />
                 <item
-                    android:id="@+id/primePs5"
-                    android:title="Prime Ps5" />
+                    android:id="@+id/aluguelPs5"
+                    android:title="Ps5" />
             </group>
-            <group android:id="@+id/primeXbox">
+            <group android:id="@+id/aluguelXbox">
                 <item
-                    android:id="@+id/primeXboxOne"
-                    android:title="Prime Xbox One" />
+                    android:id="@+id/aluguelXboxOne"
+                    android:title="Xbox One" />
                 <item
-                    android:id="@+id/primeXboxSeries"
-                    android:title="Prime Xbox Series" />
+                    android:id="@+id/aluguelXboxSeries"
+                    android:title="Xbox Series" />
             </group>
         </menu>
     </item>

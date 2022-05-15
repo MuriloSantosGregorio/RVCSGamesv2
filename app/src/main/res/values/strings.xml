@@ -2,4 +2,6 @@
     <string name="app_name">RVCSGamesv2</string>
     <string name="abrir_menu">Abrir Menu</string>
     <string name="fechar_menu">Fechar Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
