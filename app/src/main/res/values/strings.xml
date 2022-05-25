@@ -2,4 +2,16 @@
     <string name="app_name">RVCSGamesv2</string>
     <string name="abrir_menu">Abrir Menu</string>
     <string name="fechar_menu">Fechar Menu</string>
+    <string name="inicio">Inicio</string>
+    <string name="aluguel">Aluguel</string>
+    <string name="jogos">Jogos</string>
+    <string name="sobre">Sobre</string>
+    <string name="pime_ps4">Pime Ps4</string>
+    <string name="itxbox_series">ItXbox Series</string>
+    <string name="xbox_one">Xbox One</string>
+    <string name="prime_ps5">Prime Ps5</string>
+    <string name="prime_xbox_one">Prime Xbox One</string>
+    <string name="prime_xbox_series">Prime Xbox Series</string>
+    <string name="playstation_4">PlayStation 4</string>
+    <string name="playstation_5">Playstation 5</string>
 </resources>

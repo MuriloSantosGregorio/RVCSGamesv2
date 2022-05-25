@@ -1,151 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/ps4"
-        android:title="PS4" />
-    <group android:id="@+id/primePs">
-        <item
-            android:id="@+id/primePs4"
-            android:title="Pime Ps4" />
-        <item
-            android:id="@+id/primePs5"
-            android:title="Prime Ps5" />
-    </group>
-    <item
-        android:id="@+id/xboxOne"
-        android:title="Xbox One" />
-    <group
-        android:id="@+id/jogosXbox"
-        android:checkableBehavior="single">
-        <item
-            android:id="@+id/xboxOne"
-            android:title="Xbox One" />
-        <item
-            android:id="@+id/xboxSeries"
-            android:title="Xbox Series" />
-    </group>
-    <menu>
-        <group android:id="@+id/primePs">
-            <item
-                android:id="@+id/primePs4"
-                android:title="Pime Ps4" />
-            <item
-                android:id="@+id/primePs5"
-                android:title="Prime Ps5" />
-        </group>
-        <group android:id="@+id/primeXbox">
-            <item
-                android:id="@+id/primeXboxOne"
-                android:title="Prime Xbox One" />
-            <item
-                android:id="@+id/primeXboxSeries"
-                android:title="Prime Xbox Series" />
-        </group>
-    </menu>
-    <item
-        android:id="@+id/primeXboxSeries"
-        android:title="Prime Xbox Series" />
-    <group android:id="@+id/jogosPs">
-        <item
-            android:id="@+id/ps4"
-            android:title="PS4" />
-        <item
-            android:id="@+id/ps5"
-            android:title="PS5" />
-    </group>
-    <item
-        android:id="@+id/primeXboxOne"
-        android:title="Prime Xbox One" />
-    <item
-        android:id="@+id/ps5"
-        android:title="PS5" />
-    <item
-        android:id="@+id/sobre"
-        android:title="Sobre" />
-    <item
-        android:id="@+id/primePs4"
-        android:title="Pime Ps4" />
+        android:id="@+id/games"
+        android:title="@string/inicio" />
     <item
         android:id="@+id/jogos"
-        android:title="Jogos">
+        android:title="@string/jogos">
         <menu>
-            <group android:id="@+id/jogosPs">
+            <group android:id="@+id/Ps">
                 <item
                     android:id="@+id/ps4"
-                    android:title="PS4" />
+                    android:title="@string/playstation_4" />
                 <item
                     android:id="@+id/ps5"
-                    android:title="PS5" />
+                    android:title="@string/playstation_5" />
             </group>
-            <group
-                android:id="@+id/jogosXbox"
-                android:checkableBehavior="single">
+            <group android:id="@+id/Xbox">
                 <item
-                    android:id="@+id/xboxOne"
-                    android:title="Xbox One" />
+                    android:id="@+id/Xbox1"
+                    android:title="@string/xbox_one" />
                 <item
-                    android:id="@+id/xboxSeries"
-                    android:title="Xbox Series" />
+                    android:id="@+id/XboxS"
+                    android:title="@string/itxbox_series" />
             </group>
         </menu>
     </item>
-    <menu>
-        <group android:id="@+id/jogosPs">
-            <item
-                android:id="@+id/ps4"
-                android:title="PS4" />
-            <item
-                android:id="@+id/ps5"
-                android:title="PS5" />
-        </group>
-        <group
-            android:id="@+id/jogosXbox"
-            android:checkableBehavior="single">
-            <item
-                android:id="@+id/xboxOne"
-                android:title="Xbox One" />
-            <item
-                android:id="@+id/xboxSeries"
-                android:title="Xbox Series" />
-        </group>
-    </menu>
-    <item
-        android:id="@+id/xboxSeries"
-        android:title="Xbox Series" />
     <item
         android:id="@+id/aluguel"
-        android:title="Aluguel">
+        android:title="@string/aluguel">
         <menu>
             <group android:id="@+id/primePs">
                 <item
                     android:id="@+id/primePs4"
-                    android:title="Pime Ps4" />
+                    android:title="@string/pime_ps4" />
                 <item
                     android:id="@+id/primePs5"
-                    android:title="Prime Ps5" />
+                    android:title="@string/prime_ps5" />
             </group>
             <group android:id="@+id/primeXbox">
                 <item
                     android:id="@+id/primeXboxOne"
-                    android:title="Prime Xbox One" />
+                    android:title="@string/prime_xbox_one" />
                 <item
                     android:id="@+id/primeXboxSeries"
-                    android:title="Prime Xbox Series" />
+                    android:title="@string/prime_xbox_series" />
             </group>
         </menu>
     </item>
     <item
-        android:id="@+id/primePs5"
-        android:title="Prime Ps5" />
-    <group android:id="@+id/primeXbox">
-        <item
-            android:id="@+id/primeXboxOne"
-            android:title="Prime Xbox One" />
-        <item
-            android:id="@+id/primeXboxSeries"
-            android:title="Prime Xbox Series" />
-    </group>
-    <item
-        android:id="@+id/games"
-        android:title="Inicio" />
+        android:id="@+id/sobre"
+        android:title="@string/sobre" />
 </menu>
