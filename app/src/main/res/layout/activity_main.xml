@@ -9,7 +9,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/container"
-        android:name="com.example.rvcsgamesv2.GamesGeneralFragment"
+        android:name="com.example.rvcsgamesv2.inicio.InicioFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -18,5 +18,5 @@
         android:id="@+id/nv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:menu="@menu/menugeneral" />
+        app:menu="@menu/activity_main_menu" />
 </androidx.drawerlayout.widget.DrawerLayout>
