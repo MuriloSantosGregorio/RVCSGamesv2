@@ -6,6 +6,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import com.example.rvcsgamesv2.databinding.ActivityMainBinding
 import com.example.rvcsgamesv2.inicio.InicioFragment
+import com.example.rvcsgamesv2.jogos.Ps4CFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,6 +31,10 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId) {
                 R.id.nav_inicio -> {
                     val frag = InicioFragment()
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+                R.id.nav_jogos -> {
+                    val frag = Ps4CFragment()
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
             }

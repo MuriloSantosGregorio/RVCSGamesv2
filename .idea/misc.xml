@@ -15,6 +15,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16995947315096252" />
         <entry key="app/src/main/res/layout/card_game.xml" value="0.5911458333333334" />
         <entry key="app/src/main/res/layout/fragment_games_general.xml" value="0.2574074074074074" />
+        <entry key="app/src/main/res/layout/fragment_ps4_c.xml" value="0.5138888888888888" />
+        <entry key="app/src/main/res/menu/activity_main_menu.xml" value="0.5169230769230769" />
         <entry key="app/src/main/res/menu/menugeneral.xml" value="0.5901041666666667" />
       </map>
     </option>
