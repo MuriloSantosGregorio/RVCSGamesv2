@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
             }
+
+            var fechaDrawer = binding.drawerLayout
+            fechaDrawer.closeDrawers();
+
             true
         }
     }
