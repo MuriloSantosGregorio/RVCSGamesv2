@@ -11,4 +11,6 @@
     <string name="menu_aluguel">Aluguel</string>
     <string name="menu_sobre">Sobre</string>
     <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="precoJogo">TextView</string>
 </resources>
