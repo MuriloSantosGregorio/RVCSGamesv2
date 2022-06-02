@@ -9,8 +9,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import com.example.rvcsgamesv2.databinding.ActivityMainBinding
 import com.example.rvcsgamesv2.inicio.InicioFragment
 import com.example.rvcsgamesv2.jogos.Ps4CFragment
+import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.AuthUI
 
 class MainActivity : AppCompatActivity() {
 
@@ -60,9 +60,9 @@ class MainActivity : AppCompatActivity() {
         if (FirebaseAuth.getInstance().currentUser != null) {
             Toast.makeText(this, "Logado", Toast.LENGTH_SHORT).show()
         } else {
-            val providers = arrayListOf(AuthUI.IdpConfig.EmailBuild().build())
+            val providers = arrayListOf(AuthUI.IdpConfig.EmailBuilder().build())
 
-            val i = AuthUI.getInstance().createSignInItentBuilder().setAvaliableProviders(providers).build()
+            val i = AuthUI.getInstance().createSignInIntentBuilder().setAvailableProviders(providers).build()
 
             startActivityForResult(i,1)
         }

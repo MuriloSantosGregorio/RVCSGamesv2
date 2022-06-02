@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "597657576843",
+    "firebase_url": "https://rvcsgames-carrinho-default-rtdb.firebaseio.com",
+    "project_id": "rvcsgames-carrinho",
+    "storage_bucket": "rvcsgames-carrinho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597657576843:android:60bc470e40acbb1bdb3b8e",
+        "android_client_info": {
+          "package_name": "com.example.rvcsgamesv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597657576843-junf86ir0kjs3vaeno25dplo9bf7uh4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJcY2ln3Lyfdo0tHF88s5PP27TUdKiMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597657576843-junf86ir0kjs3vaeno25dplo9bf7uh4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
