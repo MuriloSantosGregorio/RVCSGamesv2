@@ -9,7 +9,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/container"
-        android:name="com.example.rvcsgamesv2.inicio.InicioFragment"
+        android:name="com.example.rvcsgamesv2.fragments.InicioFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
