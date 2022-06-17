@@ -56,7 +56,7 @@ class CarrinhoFragment : Fragment() {
                 override fun onCancelled(databaseError: DatabaseError) {
                     Log.w("MainActivity", "onCancelled", databaseError.toException())
 
-                    Toast.makeText(this@CarrinhoFragment, "Erro ao acessar o servidor",
+                    Toast.makeText( this@CarrinhoFragment, "Erro ao acessar o servidor",
                         Toast.LENGTH_LONG);
                 }
             }
@@ -69,7 +69,7 @@ class CarrinhoFragment : Fragment() {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == 0 && resultCode == Activity.RESULT_OK) {
-            Toast.makeText(this, "Autenticado", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, "Autenticado", Toast.LENGTH_LONG).show()
             configurarFirebase()
         } else {
 
