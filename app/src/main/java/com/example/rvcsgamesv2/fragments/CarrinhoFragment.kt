@@ -56,7 +56,7 @@ class CarrinhoFragment : Fragment() {
                 override fun onCancelled(databaseError: DatabaseError) {
                     Log.w("MainActivity", "onCancelled", databaseError.toException())
 
-                    Toast.makeText( this@CarrinhoFragment, "Erro ao acessar o servidor",
+                    Toast.makeText( context, "Erro ao acessar o servidor",
                         Toast.LENGTH_LONG);
                 }
             }
