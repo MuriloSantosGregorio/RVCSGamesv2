@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.example.rvcsgamesv2.Model.Jogo
 import com.example.rvcsgamesv2.R
+import com.example.rvcsgamesv2.databinding.FragmentCarrinhoBinding
 import com.example.rvcsgamesv2.databinding.ItemCarrinhoBinding
 import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth
@@ -18,6 +19,7 @@ import com.google.firebase.database.*
 
 class CarrinhoFragment : Fragment() {
 
+    lateinit var binding: FragmentCarrinhoBinding
     var database: DatabaseReference? = null
 
     override fun onCreateView(
