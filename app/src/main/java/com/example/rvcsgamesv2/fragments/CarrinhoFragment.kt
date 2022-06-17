@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.example.rvcsgamesv2.Model.Jogo
 import com.example.rvcsgamesv2.R
 import com.example.rvcsgamesv2.databinding.ItemCarrinhoBinding
 import com.firebase.ui.auth.AuthUI
@@ -93,9 +94,9 @@ class CarrinhoFragment : Fragment() {
 
             item_carrinho.nomeJogo.text = it.nome
             item_carrinho.precoJogo.text = it.preco.toString()
-            item_carrinho.descjogo.text = it.desc
+            item_carrinho.descjogo.text = it.descricao
 
-            val id = it.jogoId as String;
+            val id = it.id as String;
 
             //Trata o clique no botão "excluir"
             item_carrinho.excluir.setOnClickListener {
