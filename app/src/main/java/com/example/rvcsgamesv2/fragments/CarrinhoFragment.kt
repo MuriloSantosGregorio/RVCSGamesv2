@@ -72,7 +72,7 @@ class CarrinhoFragment : Fragment() {
             Toast.makeText(context, "Autenticado", Toast.LENGTH_LONG).show()
             configurarFirebase()
         } else {
-
+            
         }
     }
 
@@ -101,7 +101,7 @@ class CarrinhoFragment : Fragment() {
             val id = it.id as String;
 
             //Trata o clique no botão "excluir"
-            item_carrinho.excluir.setOnClickListener {
+            item_carrinho.buttonExcluir.setOnClickListener {
                 //Obtem o item da base de dados usando o id
                 val itemReference = database?.child("produtos")?.child(id)
                 //Remove o item
