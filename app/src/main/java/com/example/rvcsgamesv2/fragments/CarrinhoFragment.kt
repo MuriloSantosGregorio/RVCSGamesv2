@@ -91,9 +91,9 @@ class CarrinhoFragment : Fragment() {
         list.forEach {
             val item_carrinho = ItemCarrinhoBinding.inflate(layoutInflater)
 
-            item_carrinho.jogoNome.text = it.nome
-            item_carrinho.jogoPreco.text = it.preco.toString()
-            item_carrinho.jogoDesc.text = it.desc
+            item_carrinho.nomeJogo.text = it.nome
+            item_carrinho.precoJogo.text = it.preco.toString()
+            item_carrinho.descjogo.text = it.desc
 
             val id = it.jogoId as String;
 

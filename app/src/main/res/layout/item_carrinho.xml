@@ -35,5 +35,12 @@
             android:layout_weight="0"
             android:contentDescription="TODO"
             app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        <TextView
+            android:id="@+id/descjogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="TextView" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
