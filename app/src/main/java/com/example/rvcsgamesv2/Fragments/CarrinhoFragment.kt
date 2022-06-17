@@ -1,4 +1,4 @@
-package com.example.rvcsgamesv2.fragments
+package com.example.rvcsgamesv2.Fragments
 
 import android.app.Activity
 import android.content.Intent
@@ -20,12 +20,13 @@ import com.google.firebase.database.*
 class CarrinhoFragment : Fragment() {
 
     lateinit var binding: FragmentCarrinhoBinding
-    var database: DatabaseReference? = null
+    private var database: DatabaseReference? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        tratarLogin()
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_blank, container, false)
     }

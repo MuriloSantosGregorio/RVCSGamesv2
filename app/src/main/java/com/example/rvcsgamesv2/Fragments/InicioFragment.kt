@@ -1,4 +1,4 @@
-package com.example.rvcsgamesv2.fragments
+package com.example.rvcsgamesv2.Fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

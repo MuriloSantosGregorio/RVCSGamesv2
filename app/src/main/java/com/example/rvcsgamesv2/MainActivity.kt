@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import com.example.rvcsgamesv2.databinding.ActivityMainBinding
-import com.example.rvcsgamesv2.fragments.CarrinhoFragment
-import com.example.rvcsgamesv2.fragments.InicioFragment
+import com.example.rvcsgamesv2.Fragments.CarrinhoFragment
+import com.example.rvcsgamesv2.Fragments.InicioFragment
 
 class MainActivity : AppCompatActivity() {
 
