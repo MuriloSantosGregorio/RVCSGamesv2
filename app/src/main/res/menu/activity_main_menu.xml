@@ -11,6 +11,12 @@
             android:id="@+id/nav_jogos"
             android:title="@string/menu_jogos" />
         <item
+            android:id="@+id/nav_ps"
+            android:title="PlayStation"/>
+        <item
+            android:id="@+id/nav_xobox"
+            android:title="Xbox"/>
+        <item
             android:id="@+id/nav_aluguel"
             android:title="@string/menu_aluguel" />
         <item

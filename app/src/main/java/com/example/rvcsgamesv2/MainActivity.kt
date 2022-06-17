@@ -7,6 +7,9 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import com.example.rvcsgamesv2.databinding.ActivityMainBinding
 import com.example.rvcsgamesv2.Fragments.CarrinhoFragment
 import com.example.rvcsgamesv2.Fragments.InicioFragment
+import com.example.rvcsgamesv2.Fragments.PsnFragment
+import com.example.senac.rvcsgames.Fragmentos.SobreFragment
+import com.example.senac.rvcsgames.Fragmentos.XboxFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +35,18 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_jogos -> {
                     val frag = CarrinhoFragment()
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+                R.id.nav_ps -> {
+                    val frag = PsnFragment()
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+                R.id.nav_xobox -> {
+                    val frag = XboxFragment()
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+                R.id.nav_sobre -> {
+                    val frag = SobreFragment()
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
             }

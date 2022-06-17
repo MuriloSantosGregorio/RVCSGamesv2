@@ -7,7 +7,9 @@
 
     <!--String criadas para o menu-->
     <string name="menu_inicio">Inicio</string>
-    <string name="menu_jogos">Jogos</string>
+    <string name="menu_jogos">Carrinho</string>
+    <string name="menu_ps4">PS4</string>
+    <string name="menu_xbox">XBOX</string>
     <string name="menu_aluguel">Aluguel</string>
     <string name="menu_sobre">Sobre</string>
     <string name="todo">TODO</string>
